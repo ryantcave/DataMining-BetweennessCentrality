@@ -1,6 +1,6 @@
 # DataMining-BetweennessCentrality
 
-An assignment for CSI 4352 Data Mining - Graph Clustering by Hierarchical Approach.
+An assignment for CSI 4352 Data Mining - Graph Clustering by Hierarchical Approach. An implementation of Brandes' algorithm for faster computation of betweenness centrality, seen here: http://web.ecs.baylor.edu/faculty/cho/4352/2001_Brandes.pdf
 
 The input file provided is tab delimited and represents edge pairings. The program accepts all input in this form and iteratively removes edges of the highest betweenness until the graph is separated. At this point, we check to see if subgraphs meet a given density threshold. If not, we continue iteratively cutting edges.
 
